@@ -1,13 +1,12 @@
 import java.util.Scanner;
 
-class Main{
+public class Question2 {
+
     public static void main(String[] args){
-        System.out.println("Hello, I am Lim Kei Yiang");
-        
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the module code: ");  
+        System.out.print("Enter the module code: ");
         String module = scanner.next();
-        
+
         switch (module) {
             case "CSC1010":
                 System.out.println("Computer Networks");
@@ -27,10 +26,6 @@ class Main{
         }
         scanner.close();
 
-        for(int i = 102; i > 66; i--){
-            if(i%2 == 1){
-                System.out.println("Value of x : " + i);
-            }
-        }
+
     }
 }
